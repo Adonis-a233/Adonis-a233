@@ -4,27 +4,34 @@
 
 ### 🐙 手不够用，但还在折腾
 
-**Aster**：给自己养的 AI 助手。日常对话、文件记忆、知识检索和长期任务放在同一个工作空间里，要求就一条：干活可以，别吵我。
+**Aster**：试图养出一个能帮忙、又不会一直吵我的 AI 助手。
 
-<sub>Python · LangGraph · PostgreSQL · 个人项目，仓库暂未公开</sub>
+把日常对话、文件记忆、知识检索和长期任务放进同一个工作空间。设计目标是低感知、弱侵入、轻量化。
+
+<sub>Python · LangGraph · PostgreSQL / 个人项目，仓库暂未公开</sub>
 
 <br>
 
-**[Craving](https://github.com/Adonis-a233/Craving)**：美食社区平台的后端。发帖、评论、关注之外，做了三块硬一点的：WebSocket 即时通讯（端到端加密、幂等去重、离线补发）、图文混合的向量搜索（ES kNN + RRF）、多路召回的推荐流水线。
+**[tRPC-Agent-Python](https://github.com/trpc-group/trpc-agent-python)**：给 Agent 出卷子，也给它整理错题本。
 
-<sub>Spring Boot 3 · Java 21 · MySQL · Redis · RabbitMQ · Elasticsearch</sub>
+提交过一套可复现的 Evaluation + Optimization 流程：跑基线、归因失败 case、优化、复验，留下验收门槛和报告。
 
-### 给别家仓库交过的 PR
+<sub><a href="https://github.com/trpc-group/trpc-agent-python/pull/99">方案与代码 / PR #99 ↗</a> · 已关闭，未合并</sub>
 
-- **[west2-online/learn-backend](https://github.com/west2-online/learn-backend/pulls?q=is%3Apr+is%3Amerged+author%3AAdonis-a233)**：7 个 merged PR，从空仓库搭起六轮后端考核文档。<br><sub>之前我还是[交考核作业的那个](https://github.com/west2-online-reserve/collection-java/pulls?q=is%3Apr+author%3AAdonis-a233)。</sub>
-- **[trpc-agent-python](https://github.com/trpc-group/trpc-agent-python/pull/99)**：给 Agent 出卷子、整理错题本，一套可复现的评测流程，从跑基线、找失败原因，到优化复验、报告留档。已关闭，未合并。
-- **[Tasty 美食平台](https://github.com/yewangxiang/Tasty-Local-Food-Discovery-Sharing-Platform/pull/1)**（团队项目）：核心服务可靠性优化，已合并。
+<br>
 
-<sub>顺手修过 [apache/shenyu-website](https://github.com/apache/shenyu-website/pulls?q=is%3Apr+is%3Amerged+author%3AAdonis-a233) 的两处文档：AI proxy API key 说明、JDK 版本要求。</sub>
+**推理 Infra 支线**：正在学习怎么把模型跑起来，以及为什么它跑得不够快。
 
-### 还在学
+目前的学习方向：LLM Serving / 推理基础设施。
 
-**LLM Serving / 推理 Infra**：怎么把模型跑起来，以及为什么它跑得不够快。目前只有投入，没有能展示的成果。
+<details>
+<summary>还有些散落的脚印</summary>
+
+- [west2-online/learn-backend](https://github.com/west2-online/learn-backend/pulls?q=is%3Apr+is%3Amerged+author%3AAdonis-a233)：7 个 merged PR，从空仓库开始搭了六轮后端考核文档。更早的时候，我还是[交考核作业的那个](https://github.com/west2-online-reserve/collection-java/pulls?q=is%3Apr+author%3AAdonis-a233)。
+- [Tasty 美食平台](https://github.com/yewangxiang/Tasty-Local-Food-Discovery-Sharing-Platform/pull/1)（团队项目）：一次核心服务可靠性优化，已合并。
+- Apache ShenYu 文档：[AI proxy API key](https://github.com/apache/shenyu-website/pull/1114)、[JDK 要求](https://github.com/apache/shenyu-website/pull/1115)。
+
+</details>
 
 ---
 
