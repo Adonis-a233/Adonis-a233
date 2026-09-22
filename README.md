@@ -6,7 +6,6 @@
 
 **Aster** — 试图养出一个能帮忙、又不会一直吵我的 AI 助手。
 
-把日常对话、文件记忆、知识检索和长期任务放进同一个工作空间。设计目标是 **低感知、弱侵入、轻量化**。
 
 <sub>Python · LangGraph · PostgreSQL / 个人项目，仓库暂未公开</sub>
 
@@ -16,7 +15,6 @@
 
 提交过可复现的 **Evaluation + Optimization** 流程：基线评测 → 失败归因 → 优化 → 验证 → 验收门槛 → 报告留档。
 
-<sub><a href="https://github.com/trpc-group/trpc-agent-python/pull/99">方案与代码 / PR #99 ↗</a> · 已关闭，未合并</sub>
 
 <br>
 
