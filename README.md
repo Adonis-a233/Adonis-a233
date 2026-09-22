@@ -2,28 +2,52 @@
   <img src="./assets/chaos-terminal.svg" width="100%" alt="Abel Song：长出八只手。数字媒体技术在读，做 Agent 应用，学习 LLM Serving 和推理 Infra。">
 </p>
 
-### 🐙 手不够用，但还在折腾
+### 🗃️ 存档点
 
-**Aster** — 试图养出一个能帮忙、又不会一直吵我的 AI 助手。
+<table>
+<tr>
+<td width="50%" valign="top">
+<sub>01 / 正在养成</sub>
+<h3>🐙 Aster</h3>
+<p>试图养出一个能帮忙、又不会一直吵我的 AI 助手。</p>
+<p><code>Python</code> <code>LangGraph</code> <code>PostgreSQL</code></p>
+<sub>个人项目 · 仓库暂未公开</sub>
+</td>
+<td width="50%" valign="top">
+<sub>02 / 给 Agent 改作业</sub>
+<h3><a href="https://github.com/trpc-group/trpc-agent-python">🧪 tRPC-Agent-Python ↗</a></h3>
+<p>提交过可复现的 Evaluation + Optimization 流程：评测、失败归因、优化、验证与报告留档。</p>
+<p><code>Evaluation</code> <code>Optimization</code></p>
+<sub>给 Agent 出卷子，也给它整理错题本。</sub>
+</td>
+</tr>
+</table>
 
-
-<sub>Python · LangGraph · PostgreSQL / 个人项目，仓库暂未公开</sub>
+> **🎮 当前支线：LLM Serving / 推理 Infra**<br>
+> 正在学习怎么把模型跑起来，以及为什么它跑得不够快。
 
 <br>
 
-**[tRPC-Agent-Python](https://github.com/trpc-group/trpc-agent-python)** — 给 Agent 出卷子，也给它整理错题本。
+### 🕹️ 营业记录
 
-提交过可复现的 **Evaluation + Optimization** 流程：基线评测 → 失败归因 → 优化 → 验证 → 验收门槛 → 报告留档。
+<img src="./assets/activity.svg" width="100%" alt="GitHub 公开贡献次数、活跃天数进度条与公开原创仓库语言占比，每天更新。">
 
+<sub>私有 Aster 不参与语言统计；语言条是公开代码量，不是技能熟练度。</sub>
 
-<br>
+<br><br>
 
-**推理 Infra 支线** — 正在学习怎么把模型跑起来，以及为什么它跑得不够快。
+**下面这条蛇，负责吃掉我种的草。**
 
-目前的学习方向：LLM Serving / 推理基础设施。
+<p align="center">
+  <img src="./assets/contribution-snake.svg" width="100%" alt="贪吃蛇吃掉 GitHub 绿色贡献格子的动画，由真实贡献日历生成。">
+</p>
+
+<sub>每天自动投喂 · <a href="https://github.com/Adonis-a233/Adonis-a233/actions/workflows/profile-activity.yml">查看更新时间 ↗</a></sub>
+
+<br><br>
 
 <details>
-<summary>还有些散落的脚印</summary>
+<summary>👣 还有些散落的脚印</summary>
 
 - [West2 Online](https://github.com/west2-online/learn-backend/pulls?q=is%3Apr+is%3Amerged+author%3AAdonis-a233)：后端学习资料与项目考核。
 - Apache ShenYu 文档：[AI proxy API key](https://github.com/apache/shenyu-website/pull/1114)、[JDK 要求](https://github.com/apache/shenyu-website/pull/1115)。
@@ -32,4 +56,4 @@
 
 ---
 
-<sub>本页没有八只手，只有一个还在折腾的人。 / Visual adapted from <a href="https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro">Typewriter Intro</a>.</sub>
+<sub>本页没有八只手，只有一个还在折腾的人。<br>Visual: <a href="https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro">Typewriter Intro</a> · Snake: <a href="https://github.com/Platane/snk">Platane/snk</a></sub>
