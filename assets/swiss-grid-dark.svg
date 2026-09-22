@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Abel Song — Agent applications and backend development">
+  <title>Abel Song | Adonis-a233</title>
+  <desc>Digital Media Technology student. Building agent applications and backend services; learning LLM serving and inference infrastructure. Adapted from Swiss Grid by Awesome GitHub Profile.</desc>
+  <defs>
+    <!-- Adapted from beydemirfurkan/awesome-github-profile, MIT. See TEMPLATE-LICENSE. -->
+    <!-- Twelve columns across a 1056 measure: 72 gutter, 76 column, 24 gap.
+         Drawn at 6% so the structure is legible without competing. -->
+    <pattern id="sg-col" x="72" y="0" width="88" height="420" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="76" height="420" fill="#eeeae2" opacity="0.028"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="#131517"/>
+  <rect x="72" y="0" width="1056" height="420" fill="url(#sg-col)"/>
+
+  <!-- Baselines. A Swiss layout is a grid in both directions. -->
+  <g stroke="#eeeae2" opacity="0.09">
+    <line x1="72" y1="72" x2="1128" y2="72"/>
+    <line x1="72" y1="156" x2="1128" y2="156"/>
+    <line x1="72" y1="240" x2="1128" y2="240"/>
+    <line x1="72" y1="324" x2="1128" y2="324"/>
+  </g>
+
+  <!-- Head rule, full measure, heavy. -->
+  <rect x="72" y="42" width="1056" height="6" fill="#eeeae2"/>
+
+  <g font-family="'Helvetica Neue', Helvetica, Arial, 'Inter', system-ui, sans-serif">
+    <!-- running head, columns 1-4 and 9-12 -->
+    <text x="72" y="66" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#a6a7a8" letter-spacing="2">AGENT APPLICATIONS / BACKEND</text>
+    <text x="1128" y="66" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#a6a7a8" letter-spacing="2">ADONIS-A233 / PROFILE</text>
+
+    <!-- Name: columns 1–7, set to the baseline at 240. -->
+    <text x="66" y="236" font-size="140" font-weight="700" fill="#eeeae2" letter-spacing="-7">Abel</text>
+    <text x="470" y="236" font-size="140" font-weight="700" fill="#c8c4bc" letter-spacing="-7">Song</text>
+
+    <!-- Statement: columns 9–12, ragged right, top-aligned to the 156 baseline. -->
+    <text x="864" y="106" font-size="17" font-weight="500" fill="#eeeae2">Building applications.</text>
+    <text x="864" y="130" font-size="17" font-weight="500" fill="#eeeae2">Learning the systems</text>
+    <text x="864" y="154" font-size="17" font-weight="500" fill="#eeeae2">behind the models.</text>
+    <rect x="864" y="176" width="44" height="4" fill="#c8c4bc"/>
+
+    <!-- Index row, one entry per three columns, on the 324 baseline. -->
+    <g font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13">
+      <text x="72" y="290" fill="#a6a7a8" letter-spacing="1.5">01</text>
+      <text x="72" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#eeeae2">Agent applications</text>
+      <text x="72" y="334" fill="#a6a7a8">Python / tools / LLM APIs</text>
+
+      <text x="336" y="290" fill="#a6a7a8" letter-spacing="1.5">02</text>
+      <text x="336" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#eeeae2">Backend development</text>
+      <text x="336" y="334" fill="#a6a7a8">Java / Spring Boot</text>
+
+      <text x="600" y="290" fill="#a6a7a8" letter-spacing="1.5">03</text>
+      <text x="600" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#eeeae2">LLM serving</text>
+      <text x="600" y="334" fill="#a6a7a8">inference infra / learning</text>
+
+      <text x="864" y="290" fill="#a6a7a8" letter-spacing="1.5">04</text>
+      <text x="864" y="312" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#eeeae2">Digital media</text>
+      <text x="864" y="334" fill="#a6a7a8">technology / student</text>
+    </g>
+
+    <!-- Foot rule and colophon -->
+    <rect x="72" y="366" width="1056" height="1.5" fill="#eeeae2"/>
+    <text x="72" y="390" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#a6a7a8" letter-spacing="1.5">APPLICATIONS / SYSTEMS / LEARNING</text>
+    <text x="1128" y="390" text-anchor="end" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" fill="#a6a7a8" letter-spacing="1.5">GITHUB / ADONIS-A233</text>
+  </g>
+</svg>
