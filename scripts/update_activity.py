@@ -76,37 +76,37 @@ if len(languages) > 4:
 language_total = sum(languages.values())
 
 elements = []
-def text(x, y, value, size=16, color='#b8becb', weight='400'):
+def text(x, y, value, size=18, color='#b8becb', weight='400'):
     elements.append(f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}">{html.escape(str(value))}</text>')
 def rect(x, y, width, height, color, rx=4):
     elements.append(f'<rect x="{x}" y="{y}" width="{width:.2f}" height="{height}" rx="{rx}" fill="{color}"/>')
 
 rect(0, 0, 1200, 350, '#101217', 14)
-text(36, 38, 'ACTIVITY.LOG / 我有在敲，真的。', 19, '#eeeae2', '700')
-text(850, 38, f'SYNC / {today.isoformat()} UTC', 14, '#8e98aa')
+text(36, 38, 'ACTIVITY.LOG / 我有在敲，真的。', 21, '#eeeae2', '700')
+text(850, 38, f'SYNC / {today.isoformat()} UTC', 16, '#8e98aa')
 rect(36, 57, 1128, 1, '#303541', 0)
-text(36, 95, '过去 365 天 / 贡献次数', 15)
+text(36, 95, '过去 365 天 / 贡献次数', 17)
 text(36, 153, f'{total:,}', 48, '#b0dc8a', '700')
-text(315, 95, '最近 30 天 / 贡献次数', 15)
+text(315, 95, '最近 30 天 / 贡献次数', 17)
 text(315, 153, f'{sum(recent):,}', 48, '#bba5ee', '700')
 
-text(36, 203, f'近 30 天出没率  {recent_active}/30 天', 16)
+text(36, 203, f'近 30 天出没率  {recent_active}/30 天', 18)
 rect(36, 218, 470, 12, '#262c37')
 if recent_active: rect(36, 218, 470*recent_active/30, 12, '#bba5ee')
-text(36, 270, f'全年出没率  {active}/{len(values)} 天', 16)
+text(36, 270, f'全年出没率  {active}/{len(values)} 天', 18)
 rect(36, 285, 470, 12, '#262c37')
 if active: rect(36, 285, 470*active/len(values), 12, '#b0dc8a')
 
 rect(557, 84, 1, 213, '#303541', 0)
-text(606, 95, 'LANGUAGE LOOT / 公开代码成分', 16, '#eeeae2', '700')
+text(606, 95, 'LANGUAGE LOOT / 公开代码成分', 18, '#eeeae2', '700')
 colors = ['#bba5ee', '#b0dc8a', '#eed080', '#86cddb', '#c6c8d1']
 for i, (language, amount) in enumerate(top):
     y = 133+i*34
     percent = amount/language_total*100
-    text(606, y, language, 15)
+    text(606, y, language, 17)
     rect(760, y-12, 290, 12, '#262c37')
     rect(760, y-12, 290*percent/100, 12, colors[i])
-    text(1070, y, f'{percent:.1f}%', 14, colors[i])
+    text(1070, y, f'{percent:.1f}%', 16, colors[i])
 
 svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img"><title>GitHub public activity and language distribution</title><g font-family="Consolas, Microsoft YaHei, Noto Sans CJK SC, monospace">' + ''.join(elements) + '</g></svg>'
 (ROOT/'assets/activity.svg').write_text(svg, encoding='utf-8')

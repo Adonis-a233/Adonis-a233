@@ -33,17 +33,17 @@
 
 <g font-family="Consolas, 'Microsoft YaHei', monospace">
   <circle cx="106" cy="59" r="6" fill="#ff817c"/><circle cx="128" cy="59" r="6" fill="#eed080"/><circle cx="150" cy="59" r="6" fill="#b0dc8a"/>
-  <text x="600" y="65" text-anchor="middle" font-size="14" fill="#b7b9c5">abel.exe — 未响应？在想了在想了。</text>
-  <text x="118" y="123" font-size="18" fill="#b0dc8a">abel@earth:~$ ./grow-more-hands</text>
-  <text x="115" y="205" font-family="'Microsoft YaHei', sans-serif" font-size="58" font-weight="700" fill="#f3eee6">长出八只手。</text>
+  <text x="600" y="65" text-anchor="middle" font-size="17" fill="#b7b9c5">abel.exe — 未响应？在想了在想了。</text>
+  <text x="118" y="123" font-size="20" fill="#b0dc8a">abel@earth:~$ ./grow-more-hands</text>
+  <text x="115" y="205" font-family="'Microsoft YaHei', 'PingFang SC', 'Noto Sans CJK SC', sans-serif" font-size="58" font-weight="700" fill="#f3eee6">长出八只手。</text>
   <text x="118" y="246" font-size="20" fill="#acafbb">Abel Song / 数字媒体技术在读</text>
-  <text x="118" y="300" font-size="18" fill="#e9e7ec"><tspan fill="#b0dc8a">&gt; </tspan>build --agent-apps</text>
-  <text x="118" y="333" font-size="18" fill="#e9e7ec"><tspan fill="#b0dc8a">&gt; </tspan>learn --llm-serving --inference-infra</text>
-  <text x="118" y="383" font-size="16" fill="#eed080">[WARN] 想做的事情太多，手不够用。</text>
+  <text x="118" y="300" font-size="20" fill="#e9e7ec"><tspan fill="#b0dc8a">&gt; </tspan>build --agent-apps</text>
+  <text x="118" y="333" font-size="20" fill="#e9e7ec"><tspan fill="#b0dc8a">&gt; </tspan>learn --llm-serving --inference-infra</text>
+  <text x="118" y="383" font-size="18" fill="#eed080">[WARN] 想做的事情太多，手不够用。</text>
   <rect x="507" y="369" width="10" height="19" fill="#eed080"></rect>
   <path d="M80 407 H1120" stroke="#333845"/>
-  <text x="118" y="429" font-size="13" fill="#9298aa">ASTER / tRPC / LLM SERVING</text>
-  <text x="1080" y="429" text-anchor="end" font-size="13" fill="#b0dc8a">● STILL TINKERING</text>
+  <text x="118" y="429" font-size="16" fill="#9298aa">ASTER / tRPC / LLM SERVING</text>
+  <text x="1080" y="429" text-anchor="end" font-size="16" fill="#b0dc8a">● STILL TINKERING</text>
 </g>
 <g id="octopus" transform="translate(812 169)">
   <animateTransform attributeName="transform" type="translate" calcMode="discrete" dur="18s" repeatCount="indefinite" values="812 169;793 170;774 169;755 171;736 169;717 170;698 169;698 169;698 170;717 169;736 170;755 169;774 171;793 169;812 170;831 169;850 170;869 169;880 170;880 169;869 170;850 169;831 170;812 169"/>
