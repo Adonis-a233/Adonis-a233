@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/chaos-terminal.gif" width="100%" alt="Abel Song：长出八只手。数字媒体技术在读，做 Agent 应用，学习 LLM Serving 和推理 Infra。">
+  <img src="./assets/chaos-terminal.gif?v=orange-blink" width="100%" alt="Abel Song：长出八只手。数字媒体技术在读，做 Agent 应用，学习 LLM Serving 和推理 Infra。">
 </p>
 
 ### 🗃️ 存档点
