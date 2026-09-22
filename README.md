@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/chaos-terminal.svg" width="100%" alt="Abel Song：长出八只手。数字媒体技术在读，做 Agent 应用，学习 LLM Serving 和推理 Infra。">
+  <img src="./assets/chaos-terminal.gif" width="100%" alt="Abel Song：长出八只手。数字媒体技术在读，做 Agent 应用，学习 LLM Serving 和推理 Infra。">
 </p>
 
 ### 🗃️ 存档点
@@ -18,7 +18,6 @@
 <h3><a href="https://github.com/trpc-group/trpc-agent-python">🧪 tRPC-Agent-Python ↗</a></h3>
 <p>提交过可复现的 Evaluation + Optimization 流程：评测、失败归因、优化、验证与报告留档。</p>
 <p><code>Evaluation</code> <code>Optimization</code></p>
-<sub>给 Agent 出卷子，也给它整理错题本。</sub>
 </td>
 </tr>
 </table>
@@ -32,17 +31,11 @@
 
 <img src="./assets/activity.svg" width="100%" alt="GitHub 公开贡献次数、活跃天数进度条与公开原创仓库语言占比，每天更新。">
 
-<sub>私有 Aster 不参与语言统计；语言条是公开代码量，不是技能熟练度。</sub>
-
 <br><br>
-
-**下面这条蛇，负责吃掉我种的草。**
 
 <p align="center">
   <img src="./assets/contribution-snake.svg" width="100%" alt="贪吃蛇吃掉 GitHub 绿色贡献格子的动画，由真实贡献日历生成。">
 </p>
-
-<sub>每天自动投喂 · <a href="https://github.com/Adonis-a233/Adonis-a233/actions/workflows/profile-activity.yml">查看更新时间 ↗</a></sub>
 
 <br><br>
 
@@ -53,7 +46,3 @@
 - Apache ShenYu 文档：[AI proxy API key](https://github.com/apache/shenyu-website/pull/1114)、[JDK 要求](https://github.com/apache/shenyu-website/pull/1115)。
 
 </details>
-
----
-
-<sub>本页没有八只手，只有一个还在折腾的人。<br>Visual: <a href="https://github.com/beydemirfurkan/awesome-github-profile/tree/main/templates/02-animated/typewriter-intro">Typewriter Intro</a> · Snake: <a href="https://github.com/Platane/snk">Platane/snk</a></sub>

@@ -107,7 +107,7 @@ for i, (language, amount) in enumerate(top):
     rect(760, y-12, 290, 12, '#262c37')
     rect(760, y-12, 290*percent/100, 12, colors[i])
     text(1070, y, f'{percent:.1f}%', 14, colors[i])
-text(36, 330, '公开贡献日历 · 语言按公开原创仓库字节统计，排除 fork、归档与本主页；不代表熟练度。', 13, '#8e98aa')
+
 svg = '<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img"><title>GitHub public activity and language distribution</title><g font-family="Consolas, Microsoft YaHei, Noto Sans CJK SC, monospace">' + ''.join(elements) + '</g></svg>'
 (ROOT/'assets/activity.svg').write_text(svg, encoding='utf-8')
 print(json.dumps({'total_contributions':total,'active_days':active,'recent_30_days':sum(recent),'recent_active_days':recent_active,'language_bytes':dict(languages)},ensure_ascii=False))
