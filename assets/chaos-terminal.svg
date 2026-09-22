@@ -14,10 +14,10 @@
 
   <rect width="1200" height="480" fill="url(#ti-stage)"/>
 
-  
+
   <g filter="url(#ti-shadow)">
     <rect x="80" y="40" width="1040" height="400" rx="14" fill="#101217"/>
-    
+
     <rect x="80" y="40" width="1040" height="38" rx="14" fill="#282c36"/>
     <rect x="80" y="60" width="1040" height="18" fill="#282c36"/>
     <line x1="80" y1="78" x2="1120" y2="78" stroke="#0a0c14" stroke-width="0.6"/>
