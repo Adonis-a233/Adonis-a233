@@ -42,7 +42,7 @@
   <text x="118" y="383" font-size="18" fill="#eed080">[WARN] 想做的事情太多，手不够用。</text>
   <rect x="507" y="369" width="10" height="19" fill="#eed080"></rect>
   <path d="M80 407 H1120" stroke="#333845"/>
-  <text x="118" y="429" font-size="16" fill="#9298aa">ASTER / tRPC / LLM SERVING</text>
+  <text x="118" y="429" font-size="16" fill="#9298aa">AGENT APPS / LLM SERVING / INFERENCE INFRA</text>
   <text x="1080" y="429" text-anchor="end" font-size="16" fill="#b0dc8a">● STILL TINKERING</text>
 </g>
 <g id="octopus" transform="translate(812 169)">
